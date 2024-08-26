@@ -23,9 +23,9 @@ import USDT from 'assets/img/icons/USDT.png';
 import BUSD from 'assets/img/icons/BUSD.png';
 import ETH from 'assets/img/icons/ETH.png';
 import BNB from 'assets/img/icons/BNB.png';
-import PersonalLoanIcon from 'assets/img/icons/PersonalLoan.png'; // Replace with actual path
-import CarLoanIcon from 'assets/img/icons/CarLoan.png'; // Replace with actual path
-import HomeLoanIcon from 'assets/img/icons/HomeLoan.png'; // Replace with actual path
+import PersonalLoanIcon from 'assets/img/icons/PersonalLoan.png';
+import CarLoanIcon from 'assets/img/icons/CarLoan.png'; 
+import HomeLoanIcon from 'assets/img/icons/HomeLoan.png';
 
 const assets = [
   { name: 'Bitcoin', symbol: 'BTC', value: '$25,000', icon: BTC },
