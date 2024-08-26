@@ -20,6 +20,8 @@
 
 ### 3. 🛡️ Advanced Risk Management and Liquidation Mechanism
 
+![creditscore.png](https://cdn.dorahacks.io/static/files/1918f50e31d02d03b34462d47bfbbf84.png)
+
 - The platform employs an advanced risk management module that constantly monitors users' credit scores and overall market conditions to mitigate risks effectively. 📉
 - Should a user’s credit score fall below a predefined threshold, the system automatically triggers a liquidation process to secure the protocol's funds. 🔔 This proactive approach ensures that both borrowers and lenders are protected from market volatility. 📊
 - By implementing these sophisticated risk management strategies, ChainScore minimizes the risk of bad debt and maintains platform stability. ⚖️

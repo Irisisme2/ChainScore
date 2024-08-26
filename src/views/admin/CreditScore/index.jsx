@@ -22,20 +22,9 @@
 
 // Chakra imports
 import { Box, SimpleGrid } from "@chakra-ui/react";
-import DevelopmentTable from "views/admin/CreditScore/components/DevelopmentTable";
-import CheckTable from "views/admin/CreditScore/components/CheckTable";
-import ColumnsTable from "views/admin/CreditScore/components/ColumnsTable";
-import ComplexTable from "views/admin/CreditScore/components/ComplexTable";
-import {
-  columnsDataDevelopment,
-  columnsDataCheck,
-  columnsDataColumns,
-  columnsDataComplex,
-} from "views/admin/CreditScore/variables/columnsData";
-import tableDataDevelopment from "views/admin/CreditScore/variables/tableDataDevelopment.json";
-import tableDataCheck from "views/admin/CreditScore/variables/tableDataCheck.json";
-import tableDataColumns from "views/admin/CreditScore/variables/tableDataColumns.json";
-import tableDataComplex from "views/admin/CreditScore/variables/tableDataComplex.json";
+import RecentActivity from "views/admin/CreditScore/components/RecentActivity";
+import CreditScoreOverview from "views/admin/CreditScore/components/CreditScoreOverview";
+import CreditScoreSimulator from "views/admin/CreditScore/components/CreditScoreSimulator";
 import React from "react";
 
 export default function Settings() {
@@ -46,20 +35,12 @@ export default function Settings() {
         mb='20px'
         columns={{ sm: 1, md: 2 }}
         spacing={{ base: "20px", xl: "20px" }}>
-        <DevelopmentTable
-          columnsData={columnsDataDevelopment}
-          tableData={tableDataDevelopment}
-        />
-        <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
-        <ColumnsTable
-          columnsData={columnsDataColumns}
-          tableData={tableDataColumns}
-        />
-        <ComplexTable
-          columnsData={columnsDataComplex}
-          tableData={tableDataComplex}
-        />
-      </SimpleGrid>
+        <CreditScoreOverview  />
+        <CreditScoreSimulator />
+        </SimpleGrid>
+        <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
+        <RecentActivity/>
+        </SimpleGrid>
     </Box>
   );
 }

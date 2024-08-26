@@ -46,8 +46,6 @@ import {
   MdSecurity,
 } from "react-icons/md";
 import PerformanceAnalytics from "views/admin/default/components/PerformanceAnalytics";
-import DailyTraffic from "views/admin/default/components/DailyTraffic";
-import PieCard from "views/admin/default/components/PieCard";
 import QuickActions from "views/admin/default/components/QuickActions";
 import CreditScoreCard from "views/admin/default/components/CreditScoreCard";
 import AssetAndLoanCard from "views/admin/default/components/AssetAndLoanCard";;
