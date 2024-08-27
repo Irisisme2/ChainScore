@@ -28,6 +28,8 @@
 - Should a user’s credit score fall below a predefined threshold, the system automatically triggers a liquidation process to secure the protocol's funds. 🔔 This proactive approach ensures that both borrowers and lenders are protected from market volatility. 📊
 - By implementing these sophisticated risk management strategies, ChainScore minimizes the risk of bad debt and maintains platform stability. ⚖️
 
+![assetyu.png](https://cdn.dorahacks.io/static/files/191914e3e378ca702782d5f4e0682ba7.png)
+
 ### 4. 🌍 Community-Driven Governance and Incentives
 
 - ChainScore is governed by its community through a decentralized autonomous organization (DAO). 🏛️ Users who hold the platform’s governance token can propose and vote on important decisions, such as adjustments to the credit scoring model, risk management strategies, and interest rate structures. 🗳️
