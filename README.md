@@ -32,6 +32,8 @@
 
 ### 4. 🌍 Community-Driven Governance and Incentives
 
+![governance.png](https://cdn.dorahacks.io/static/files/191916a36283c24f9ff56f84fd78affa.png)
+
 - ChainScore is governed by its community through a decentralized autonomous organization (DAO). 🏛️ Users who hold the platform’s governance token can propose and vote on important decisions, such as adjustments to the credit scoring model, risk management strategies, and interest rate structures. 🗳️
 - To encourage active participation, the platform rewards governance participants with staking rewards and additional tokens, fostering a vibrant and engaged community. 🎉
 - This community-driven approach ensures that ChainScore evolves in alignment with the needs and interests of its users. 💬

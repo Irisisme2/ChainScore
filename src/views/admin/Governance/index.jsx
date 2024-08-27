@@ -22,20 +22,8 @@
 
 // Chakra imports
 import { Box, SimpleGrid } from "@chakra-ui/react";
-import DevelopmentTable from "views/admin/Governance/components/DevelopmentTable";
-import CheckTable from "views/admin/Governance/components/CheckTable";
-import ColumnsTable from "views/admin/Governance/components/ColumnsTable";
-import ComplexTable from "views/admin/Governance/components/ComplexTable";
-import {
-  columnsDataDevelopment,
-  columnsDataCheck,
-  columnsDataColumns,
-  columnsDataComplex,
-} from "views/admin/Governance/variables/columnsData";
-import tableDataDevelopment from "views/admin/Governance/variables/tableDataDevelopment.json";
-import tableDataCheck from "views/admin/Governance/variables/tableDataCheck.json";
-import tableDataColumns from "views/admin/Governance/variables/tableDataColumns.json";
-import tableDataComplex from "views/admin/Governance/variables/tableDataComplex.json";
+import VotingDashboard from "views/admin/Governance/components/VotingDashboard";
+import ProposeChanges from "views/admin/Governance/components/ProposeChanges";
 import React from "react";
 
 export default function Settings() {
@@ -46,19 +34,8 @@ export default function Settings() {
         mb='20px'
         columns={{ sm: 1, md: 2 }}
         spacing={{ base: "20px", xl: "20px" }}>
-        <DevelopmentTable
-          columnsData={columnsDataDevelopment}
-          tableData={tableDataDevelopment}
-        />
-        <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
-        <ColumnsTable
-          columnsData={columnsDataColumns}
-          tableData={tableDataColumns}
-        />
-        <ComplexTable
-          columnsData={columnsDataComplex}
-          tableData={tableDataComplex}
-        />
+        <VotingDashboard />
+        <ProposeChanges />
       </SimpleGrid>
     </Box>
   );
